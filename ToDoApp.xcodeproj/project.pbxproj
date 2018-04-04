@@ -15,6 +15,8 @@
 		4FFC20722074F18E001A6CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC20702074F18E001A6CFB /* LaunchScreen.storyboard */; };
 		4FFC207D2074F18F001A6CFB /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC207C2074F18F001A6CFB /* ToDoAppTests.swift */; };
 		4FFC20882074F18F001A6CFB /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC20872074F18F001A6CFB /* ToDoAppUITests.swift */; };
+		4FFC20962074FB17001A6CFB /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC20952074FB17001A6CFB /* AddController.swift */; };
+		4FFC20982074FC8D001A6CFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC20972074FC8D001A6CFB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4FFC20832074F18F001A6CFB /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFC20872074F18F001A6CFB /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		4FFC20892074F18F001A6CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFC20952074FB17001A6CFB /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		4FFC20972074FC8D001A6CFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				4FFC20642074F187001A6CFB /* AppDelegate.swift */,
 				4FFC20662074F187001A6CFB /* ViewController.swift */,
+				4FFC20952074FB17001A6CFB /* AddController.swift */,
 				4FFC20682074F187001A6CFB /* Main.storyboard */,
+				4FFC20972074FC8D001A6CFB /* Constants.swift */,
 				4FFC206E2074F18E001A6CFB /* Assets.xcassets */,
 				4FFC20702074F18E001A6CFB /* LaunchScreen.storyboard */,
 				4FFC20732074F18E001A6CFB /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFC20982074FC8D001A6CFB /* Constants.swift in Sources */,
 				4FFC20672074F187001A6CFB /* ViewController.swift in Sources */,
 				4FFC206D2074F187001A6CFB /* ToDoApp.xcdatamodeld in Sources */,
 				4FFC20652074F187001A6CFB /* AppDelegate.swift in Sources */,
+				4FFC20962074FB17001A6CFB /* AddController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
