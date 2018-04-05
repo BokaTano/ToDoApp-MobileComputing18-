@@ -24,21 +24,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        if let todo = todoList{
-            return todo.count
-        }else{
-            return 0
-        }
+        return todoList?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        if let todo = todoList{
-            cell.textLabel?.text = todo[indexPath.row]
-        }
+        cell.textLabel?.text = todoList?[indexPath.row]
         return cell
     }
 
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+             todoList?.remove(at: indexPath.row)
+            tableView.reloadData()  
+        }
+    }
+    
 }
 

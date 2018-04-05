@@ -20,4 +20,5 @@ func fetchDate() -> [String]? {
     } else {
         return nil
     }
+    
 }
