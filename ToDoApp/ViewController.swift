@@ -28,7 +28,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "toDoCell", for: indexPath)
+
+//        let cell = UITableViewCell(style: .default, reuseIdentifier: "toDoCell")
         cell.textLabel?.text = todoList?[indexPath.row]
         return cell
     }
@@ -39,6 +41,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             tableView.reloadData()  
         }
     }
-    
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print(segue.identifier)
+    }
 }
 

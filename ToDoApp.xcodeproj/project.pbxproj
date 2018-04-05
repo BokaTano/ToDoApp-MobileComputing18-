@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0364309520764F92004109E5 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0364309420764F92004109E5 /* DetailsViewController.swift */; };
 		4FFC20652074F187001A6CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC20642074F187001A6CFB /* AppDelegate.swift */; };
 		4FFC20672074F187001A6CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC20662074F187001A6CFB /* ViewController.swift */; };
 		4FFC206A2074F187001A6CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC20682074F187001A6CFB /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0364309420764F92004109E5 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		4FFC20612074F187001A6CFB /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFC20642074F187001A6CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FFC20662074F187001A6CFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				4FFC20702074F18E001A6CFB /* LaunchScreen.storyboard */,
 				4FFC20732074F18E001A6CFB /* Info.plist */,
 				4FFC206B2074F187001A6CFB /* ToDoApp.xcdatamodeld */,
+				0364309420764F92004109E5 /* DetailsViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				4FFC206D2074F187001A6CFB /* ToDoApp.xcdatamodeld in Sources */,
 				4FFC20652074F187001A6CFB /* AppDelegate.swift in Sources */,
 				4FFC20962074FB17001A6CFB /* AddController.swift in Sources */,
+				0364309520764F92004109E5 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
